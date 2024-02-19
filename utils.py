@@ -16,4 +16,7 @@ def gcd(a, b):
         return gcd(a % b, b)
     else:
         return gcd(a, b % a)
-
+def is_p(n):
+    if (fact(n-1)+1)%n==0:
+        return "YES"
+    return "NO"
