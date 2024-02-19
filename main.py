@@ -1,3 +1,3 @@
-import utils.py
-print(fact(5))
-print(isfive(625))
+import utils
+print(utils.fact(5))
+print(utils.isfive(625))
