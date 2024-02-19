@@ -1,4 +1,4 @@
 import utils
-print(fact(5))
-print(isfive(625))
-print(gcd(1, 3)
+print(utils.fact(5))
+print(utils.isfive(625))
+print(utils.gcd(1, 3))
